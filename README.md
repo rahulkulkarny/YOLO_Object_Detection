@@ -134,7 +134,6 @@ flow --train --model cfg/yolo-tiny.cfg --load bin/yolo-tiny.weights
 Example of training on Pascal VOC 2007:
 ```bash
 # Download the Pascal VOC dataset:
-curl -O https://pjreddie.com/media/files/VOCtest_06-Nov-2007.tar
 tar xf VOCtest_06-Nov-2007.tar
 
 # An example of the Pascal VOC annotation format:
@@ -259,8 +258,4 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 ```
 If you'd like to load a `.pb` and `.meta` file when using `return_predict()` you can set the `"pbLoad"` and `"metaLoad"` options in place of the `"model"` and `"load"` options you would normally set.
 
-That's all.
 
-## Credits
-
-Credits for this code go to [https://github.com/thtrieu](https://github.com/thtrieu). I've merely created a wrapper to get people started.
