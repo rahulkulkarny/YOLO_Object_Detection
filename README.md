@@ -11,7 +11,7 @@ Python3, tensorflow 1.0, numpy, opencv 3.
 
 You can choose _one_ of the following three ways to get started with darkflow.
 
-1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
+1. Just build the Python extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
     ```
     python3 setup.py build_ext --inplace
     ```
@@ -25,13 +25,6 @@ You can choose _one_ of the following three ways to get started with darkflow.
     ```
     pip install .
     ```
-
-## Update
-
-**Android demo on Tensorflow's** [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/android/src/org/tensorflow/demo/TensorFlowYoloDetector.java)
-
-**I am looking for help:**
- - `help wanted` labels in issue track
 
 ## Parsing the annotations
 
