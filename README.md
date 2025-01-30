@@ -1,7 +1,6 @@
-## Intro
+## Project Name: Computer Vision based Multi-Object Detection & Tracking
+Object detection and tracking in the realm of computer vision is a critical task that not only identifies the location and class of objects within the frame but also maintains a unique ID for each detected object as the video progresses. This project uses the YOLO model for Object detection and classification in real time videos and images.
 
-
-Real-time object detection and classification.
 
 ## Dependencies
 
